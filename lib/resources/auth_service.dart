@@ -1,3 +1,4 @@
+import 'package:cryptext2/resources/firestore_methods.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:sign_in_with_apple/sign_in_with_apple.dart';
 
@@ -23,8 +24,12 @@ class AuthService {
         accessToken: appleCredential.authorizationCode,
       );
 
-      return await _firebaseAuth.signInWithCredential(oAuthCredential);
+      
+      final UserCredential cred = await _firebaseAuth.signInWithCredential(oAuthCredential);
 
+      FirestoreMethods().saveUserToDatabase(cred, "apple");
+
+      return cred;
 
     } catch (e) {
       print("apple sign in error: $e");
