@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "466439248382",
+    "project_id": "cryptext2",
+    "storage_bucket": "cryptext2.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:466439248382:android:c9a1a9227385a666e8c8af",
+        "android_client_info": {
+          "package_name": "com.nodamngoodstudios.cryptext2"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD-YE77mB51RnX-kL7Z3XS2aXA_ugxKcCc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
