@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
-	<<!-- Google Sign-in Section -->
+
 	<key>CFBundleURLTypes</key>
 	<array>
 		<dict>
@@ -15,7 +15,11 @@
 			</array>
 		</dict>
 	</array>
-	<!-- End of the Google Sign-in Section -->dict>
+	<key>GIDClientID</key>
+	<!-- TODO Replace this value: -->
+	<!-- Copied from GoogleService-Info.plist key CLIENT_ID -->
+	<string>466439248382-9908hd73m2nl5dsoid5msnq2ap55ic54.apps.googleusercontent.com</string>	
+
 	<key>CFBundleDevelopmentRegion</key>
 	<string>$(DEVELOPMENT_LANGUAGE)</string>
 	<key>CFBundleDisplayName</key>
