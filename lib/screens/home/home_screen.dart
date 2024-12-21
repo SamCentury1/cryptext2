@@ -22,6 +22,7 @@ class _HomeScreenState extends State<HomeScreen> {
         
     return Scaffold(
       appBar: AppBar(
+        backgroundColor: Colors.red,
         title: Text("Home Screen"),
         actions: [
           IconButton(
@@ -30,9 +31,32 @@ class _HomeScreenState extends State<HomeScreen> {
           )
         ],
       ),
-      body: Center(
-        child: Text("Welcome ${email}"),
+      body: Column(
+        children: [
+          Container(
+            width: 200,
+            height: 50,
+            color: Colors.green,
+            child: Text(
+              "PENIS"
+            )
+          ),
+          Center(
+            child: Column(
+              children: displayEmails(email),
+            ),
+          ),
+        ],
       ),
     );
   }
+}
+
+List<Widget> displayEmails(String email) {
+  List<Widget> col = [];
+  for (int i=0; i<20; i++) {
+    Widget item = Text(email);
+    col.add(item);
+  }
+  return col;
 }

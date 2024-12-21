@@ -12,7 +12,20 @@
           "package_name": "com.nodamngoodstudios.cryptext2"
         }
       },
-      "oauth_client": [],
+      "oauth_client": [
+        {
+          "client_id": "466439248382-9s56ns7rshnel0e7b6av2ll9666hmu7m.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.nodamngoodstudios.cryptext2",
+            "certificate_hash": "d132101b42339b519fe974a0dc0b1fbb47e0b2b4"
+          }
+        },
+        {
+          "client_id": "466439248382-pm5en4je6oogh29lg0c0rcgr50ktd2np.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
       "api_key": [
         {
           "current_key": "AIzaSyD-YE77mB51RnX-kL7Z3XS2aXA_ugxKcCc"
@@ -20,7 +33,19 @@
       ],
       "services": {
         "appinvite_service": {
-          "other_platform_oauth_client": []
+          "other_platform_oauth_client": [
+            {
+              "client_id": "466439248382-pm5en4je6oogh29lg0c0rcgr50ktd2np.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "466439248382-9908hd73m2nl5dsoid5msnq2ap55ic54.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.nodamngoodstudios.cryptext2"
+              }
+            }
+          ]
         }
       }
     }
